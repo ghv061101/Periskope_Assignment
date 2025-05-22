@@ -29,5 +29,19 @@ It offers a clean, responsive interface for messaging with contacts, searching u
   - Supabase Auth
   - Middleware for protected routes   
     
-  
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or newer)
+- npm or yarn
+- Supabase account
+
+### Setup
+**Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/periskope.git
+cd periskope
+```
            
