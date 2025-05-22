@@ -41,7 +41,7 @@ It offers a clean, responsive interface for messaging with contacts, searching u
 **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/periskope.git
+[git clone](https://github.com/ghv061101/Periskope_Assignment.git)
 cd periskope
 ```
            
