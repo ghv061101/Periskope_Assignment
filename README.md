@@ -14,6 +14,10 @@ It offers a clean, responsive interface for messaging with contacts, searching u
   - Add new contacts through user search
 - **Message History**: View and scroll through conversation history
 - **Unread Messages**: Filter to quickly find conversations with unread messages
+## Deploy Link
+```
+
+```
 
 ## Tech Stack
 - **Frontend**:
@@ -41,7 +45,32 @@ It offers a clean, responsive interface for messaging with contacts, searching u
 **Clone the repository**
 
 ```bash
-cd clone https://github.com/ghv061101/Periskope_Assignment.git
+git clone https://github.com/ghv061101/Periskope_Assignment.git
 cd periskope
 ```
-           
+**Install dependencies**
+
+```bash
+npm install
+```
+
+**Set up environment variables**
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+      
+*Set up Supabase**
+
+- Create a new Supabase project
+- Run the SQL from `supabase-schema.sql` in the SQL editor to set up the database schema
+- Set up authentication providers in the Supabase dashboard
+
+**Run the development server**
+
+```bash
+npm run dev
+```
